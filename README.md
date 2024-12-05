@@ -5,8 +5,15 @@
 First, run the development server:
 
 ```bash
+
 docker-compose up
+
+# if issue with permissions.
+
+chmod +x docker-entrypoint.sh
+
 # or
+
 npx prisma migrate deploy
 npm run dev 
 ```
